@@ -1,0 +1,23 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+   
+}
+ul{ 
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+}
+li{
+    margin-left: 190px;
+    margin-top: 10px;  
+    
+}
+nav img{
+    margin-left: 20px;
+}
+.img{
+    margin-left: 280px;
+    margin-top: 22px;
+}
