@@ -1,5 +1,6 @@
 import Header from "../../components/Header/Header"
 import NavBar from "../../components/NavBars/NavBar"
+import Projects from "../Projects/Projects"
 
 
  function Home(){
@@ -7,6 +8,7 @@ import NavBar from "../../components/NavBars/NavBar"
          <div>
             <NavBar/>
             <Header/>
+            <Projects/>
          </div>
     ) 
 }
