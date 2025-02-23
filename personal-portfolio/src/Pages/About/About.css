@@ -1,0 +1,36 @@
+
+h3{
+    font-size: 64px;
+    padding: 2rem;
+}
+
+.span{
+    display: flex;
+    justify-content: space-around;
+    margin-left:22px ;
+    font-size: 22px;
+}
+.spans{
+    display: flex;
+    justify-content: space-around;
+    margin-left:50px ;
+    font-size: 15px;
+}
+
+img{
+    margin-left: 160px;
+}
+span:hover{
+    color: blue;
+    cursor: pointer;
+}
+.footer-text{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 180px;
+    
+}
+footer img{
+    margin-top: 15px;
+    margin-left: 10px;
+}

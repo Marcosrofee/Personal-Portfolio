@@ -1,7 +1,7 @@
 import Header from "../../components/Header/Header"
 import NavBar from "../../components/NavBars/NavBar"
 import Projects from "../Projects/Projects"
-
+import About from "../About/About"
 
  function Home(){
      return(
@@ -9,6 +9,7 @@ import Projects from "../Projects/Projects"
             <NavBar/>
             <Header/>
             <Projects/>
+            <About/>
          </div>
     ) 
 }
