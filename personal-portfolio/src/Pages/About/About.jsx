@@ -31,9 +31,9 @@ function About(){
           
               <h5> Email: <br /> marcroger61@gmail.com </h5>
           <div className="footer-img">
-             <img src={Git} width={40} alt=""  />
-             <img src={Lin} width={40}  alt=""  />
-             <img src={Fig} width={40}  alt=""  />
+             <a href="https://github.com/Marcosrofee">  <img src={Git} width={40} alt=""  />  </a>
+             <a href="https://www.linkedin.com/in/marcos-rogerio-b34b4b219?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BZhBbM1cnRUulzvWH7GHWzQ%3D%3D"> <img src={Lin} width={40}  alt=""  />    </a>
+             <a href="https://www.figma.com/files/team/1012217658664074556/user/1012217653781994010?fuid=1012217653781994010"> <img src={Fig} width={40}  alt=""  />  </a>   
           </div>
              
             </div>
