@@ -1,19 +1,26 @@
-import Card from "../../components/Cards/Card";
-import "./Projects.css";
+
+import NavBar from  '../../components/NavBars/NavBar'
+import Cards from '../../components/cards/Cards';
+import About from "../About/About"
 
 function Projects(){
     return(
-       <div className="Projects">
-          <h1>Projetos</h1>
-          <div className="cardA" >
-             <Card/>
-             <Card/>
+      <div className="pro">
+         <NavBar/>
+         <h1>Projetos</h1>
+          <div className="cards">
+             <Cards />
           </div>
-          <div className="cardA">
-             <Card/>
-             <Card/>
+          <div className="mt-10">
+            <About/>
           </div>
+            
+          
+          
+          
+          
       </div>
-     )
+      
+    )
 }
-export default Projects;
+export default Projects;   

@@ -1,13 +1,14 @@
 import "./About.css";
-
 //ASSETS//
 import Linha from '../../assets/Linha.svg' 
 import Git from '../../assets/GitHub.svg'
 import Lin from '../../assets/Linkedin.svg'
 import Fig from '../../assets/Figma.svg'
+
 function About(){
     return(
        <div >
+       
           <h3>Sobre Min</h3>
           <div> 
              <div className="span">
@@ -37,9 +38,10 @@ function About(){
           </div>
              
             </div>
+            
        </footer>
 
-          
+         
        </div>
      )
 }

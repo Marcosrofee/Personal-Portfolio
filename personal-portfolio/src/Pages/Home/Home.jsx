@@ -1,16 +1,30 @@
 import Header from "../../components/Header/Header"
 import NavBar from "../../components/NavBars/NavBar"
-import Projects from "../Projects/Projects"
 import About from "../About/About"
+
+
+import Cards from "../../components/cards/Cards"
+
+
+
+
+
+
+
+
+
 
  function Home(){
      return(
-         <div>
+        <div>
             <NavBar/>
             <Header/>
-            <Projects/>
+            <Cards/>
             <About/>
-         </div>
+               
+            
+
+        </div>
     ) 
 }
 export default Home
